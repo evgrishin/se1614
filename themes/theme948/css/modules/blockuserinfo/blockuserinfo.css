@@ -1,0 +1,122 @@
+.header_user_info {
+  float: right;
+  margin-right: -40px;
+}
+@media (max-width: 767px) {
+  .header_user_info {
+    margin-right: 0px;
+  }
+}
+.header_user_info a {
+  color: #333333;
+  font-weight: normal;
+  display: block;
+  font: 400 13px/16px "Ubuntu", sans-serif;
+  padding: 1px 0px 0px 0px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .header_user_info a {
+    font-size: 11px;
+    text-align: center;
+    background: #333333;
+    padding: 20px 0 20px 0;
+    color: white;
+  }
+  .header_user_info a:hover, .header_user_info a.active {
+    color: white;
+    background: #444444;
+  }
+}
+.header_user_info a:hover, .header_user_info a.active {
+  color: #666666;
+}
+@media (max-width: 767px) {
+  .header_user_info a:hover, .header_user_info a.active {
+    color: white;
+  }
+}
+.header_user_info a.account {
+  margin-left: 20px;
+  min-width: 120px;
+  text-align: right;
+}
+
+.header_user_info.header_user_account {
+  padding-left: 20px;
+  margin-right: -40px;
+}
+@media (max-width: 767px) {
+  .header_user_info.header_user_account a {
+    color: #333333;
+  }
+  .header_user_info.header_user_account a:hover span {
+    color: #666666;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header_user_info {
+    margin-right: 0;
+  }
+
+  ul.product_list.grid > li .product-container .old-price {
+    margin-left: 4px;
+  }
+
+  .price.product-price {
+    font-size: 19px;
+  }
+
+  .price-percent-reduction {
+    margin-left: 5px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header_user_info {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header_user_info {
+    width: 25%;
+  }
+
+  .header_user_info.header_user_account {
+    width: inherit;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .header_user_info.header_user_account a {
+    background: none;
+    display: inline-block;
+  }
+
+  .header_user_info.header_user_account a:hover {
+    background: none;
+    color: #3e383c;
+  }
+
+  .header_user_info.header_user_account a span {
+    display: block;
+    text-align: left;
+  }
+
+  .header_user_info a.account {
+    margin-left: 0px;
+    padding: 0;
+    min-width: inherit;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .header_user_info {
+    margin-right: 0;
+  }
+
+  .header_user_info.header_user_account {
+    padding-left: 20px;
+    margin-right: 0px;
+  }
+}

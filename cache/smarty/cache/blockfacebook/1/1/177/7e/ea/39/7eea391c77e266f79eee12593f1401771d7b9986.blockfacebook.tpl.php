@@ -10,16 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '1622956b460f9c2faf4-75466488',
-  'variables' => 
-  array (
-    'facebookurl' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56b460f9cceb74_07626423',
+  'unifunc' => 'content_56efa80191c900_53393607',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56b460f9cceb74_07626423')) {function content_56b460f9cceb74_07626423($_smarty_tpl) {?><div id="fb-root"></div>
+<?php if ($_valid && !is_callable('content_56efa80191c900_53393607')) {function content_56efa80191c900_53393607($_smarty_tpl) {?><div id="fb-root"></div>
 <div id="facebook_block" class="col-xs-4">
 	<h4 >Присоединяйтесь к нам в Facebook</h4>
 	<div class="facebook-fanbox">

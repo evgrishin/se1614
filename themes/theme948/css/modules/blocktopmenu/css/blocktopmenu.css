@@ -1,0 +1,8 @@
+#block_top_menu {
+  padding-top: 37px;
+}
+@media (max-width: 767px) {
+  #block_top_menu {
+    padding-top: 23px;
+  }
+}

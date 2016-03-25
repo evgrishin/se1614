@@ -1,0 +1,12 @@
+"Slide ID";Active;Position;Description;Title;Legend;Url;Image
+1;1;0;"<h2>Free <br /> shipping</h2>
+<h3>On orders over $99</h3>";"Sample 1";sample-1;index.php?id_category=3&controller=category;4d3afb46ba17fbd440a479b63ef73531.jpg
+2;1;0;"<div class=""slide-2"">
+<h2>final sale</h2>
+<h3><strong>70%</strong> off</h3>
+<p>Cum sociis natoque penat bus et magnis dis parturient ontes nascetur ridilus mus. Nulla dui. Fusce feugiat males.</p>
+</div>";"Sample 2";sample-2;index.php?id_category=4&controller=category;d585590f43ca27c580c82b52bf57cd71.jpg
+3;1;0;"<div class=""slide-3"">
+<h2>The <strong>new collection</strong> is here</h2>
+<p>Cum sociis natoque penat bus et magnis dis parturient ontes nascetur ridilus mus. Nulla dui. Fusce feugiat males.</p>
+</div>";"Sample 3";sample-3;index.php?id_category=5&controller=category;1e1b1a916f39470852a93180442ead71.jpg

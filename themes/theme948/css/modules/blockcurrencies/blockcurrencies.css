@@ -1,0 +1,133 @@
+#currencies-block-top {
+  float: right;
+  position: relative;
+  padding-right: 20px;
+}
+@media (max-width: 767px) {
+  #currencies-block-top {
+    width: 25%;
+    padding-right: 0;
+    text-align: center;
+    min-height: 45px;
+    border-right: 1px solid #111;
+  }
+}
+#currencies-block-top span.firstWord {
+  display: none;
+}
+#currencies-block-top div.current {
+  font: 400 13px/16px "Ubuntu", sans-serif;
+  padding: 0px 0px 0px 0px;
+  color: #333333;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  #currencies-block-top div.current {
+    background: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 11px;
+  }
+  #currencies-block-top div.current:hover {
+    background: #444444;
+    color: white;
+  }
+}
+#currencies-block-top div.current strong {
+  color: #333333;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  #currencies-block-top div.current strong {
+    color: white;
+  }
+}
+#currencies-block-top div.current:hover, #currencies-block-top div.current.active {
+  color: #666666;
+}
+@media (max-width: 767px) {
+  #currencies-block-top div.current:hover, #currencies-block-top div.current.active {
+    color: white;
+    background: #444444;
+  }
+}
+#currencies-block-top div.current:hover strong, #currencies-block-top div.current.active strong {
+  color: #666666;
+}
+@media (max-width: 767px) {
+  #currencies-block-top div.current:hover strong, #currencies-block-top div.current.active strong {
+    color: white;
+  }
+}
+#currencies-block-top div.current:after {
+  content: "\f0d7";
+  font-family: "FontAwesome";
+  font-size: 10px;
+  line-height: 18px;
+  color: #333333;
+  vertical-align: 1px;
+  padding-left: 5px;
+}
+@media (max-width: 767px) {
+  #currencies-block-top div.current:after {
+    padding-left: 2px;
+    font-size: 13px;
+    line-height: 13px;
+    vertical-align: 0;
+    color: white;
+  }
+}
+@media (max-width: 767px) {
+  #currencies-block-top div.current .cur-label {
+    display: none;
+  }
+}
+#currencies-block-top ul {
+  display: none;
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 157px;
+  background: #000;
+  z-index: 2;
+}
+@media (max-width: 767px) {
+  #currencies-block-top ul {
+    top: 56px;
+    left: -1px;
+  }
+}
+#currencies-block-top ul li {
+  color: white;
+  line-height: 35px;
+  font-size: 13px;
+  border-top: 1px solid #555;
+}
+@media (max-width: 767px) {
+  #currencies-block-top ul li {
+    text-align: left;
+  }
+  #currencies-block-top ul li:first-child {
+    border: none;
+  }
+}
+#currencies-block-top ul li a,
+#currencies-block-top ul li > span {
+  padding: 0 10px 0 12px;
+  display: block;
+  color: white;
+  -webkit-transition: background 0.3s linear;
+  -moz-transition: background 0.3s linear;
+  -ms-transition: background 0.3s linear;
+  -o-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}
+#currencies-block-top ul li.selected, #currencies-block-top ul li:hover a {
+  background: #444444;
+  -webkit-transition: background 0.3s linear;
+  -moz-transition: background 0.3s linear;
+  -ms-transition: background 0.3s linear;
+  -o-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}

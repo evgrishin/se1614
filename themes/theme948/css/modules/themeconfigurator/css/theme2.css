@@ -1,0 +1,222 @@
+body {
+  background: #282828;
+}
+
+#page {
+  background: url("../img/bg-theme-2.gif") repeat center top rgba(0, 0, 0, 0);
+}
+
+#header .nav {
+  background: url("../img/bg-theme-2.gif") repeat center top rgba(0, 0, 0, 0);
+}
+
+#block_top_menu .sf-menu,
+#block_top_menu .cat-title {
+  background: #ff7e57;
+}
+
+#header .shopping_cart > a:first-child {
+  background: #d7cbc0;
+}
+#header .shopping_cart > a:first-child:hover {
+  background: #c7bcb1;
+}
+
+#search_block_top .btn.button-search {
+  background: #d7cbc0;
+}
+#search_block_top .btn.button-search:hover {
+  background: #c7bcb1;
+}
+
+#contact-link a,
+.header_user_info a {
+  color: white;
+}
+@media (max-width: 767px) {
+  #contact-link a,
+  .header_user_info a {
+    background: #ff7e57;
+  }
+  #contact-link a:hover,
+  .header_user_info a:hover {
+    background: #eb724d;
+  }
+}
+#contact-link a:hover,
+.header_user_info a:hover {
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #contact-link a:hover,
+  .header_user_info a:hover {
+    color: white;
+  }
+}
+
+#languages-block-top div.current:after,
+#currencies-block-top div.current:after,
+#languages-block-top div.current,
+#currencies-block-top div.current,
+#currencies-block-top div.current strong {
+  color: white;
+}
+#languages-block-top div.current:after:hover,
+#currencies-block-top div.current:after:hover,
+#languages-block-top div.current:hover,
+#currencies-block-top div.current:hover,
+#currencies-block-top div.current strong:hover {
+  color: #777777;
+}
+
+#block_top_menu .cat-title {
+  border-bottom: 1px solid #db6642;
+}
+
+@media (max-width: 767px) {
+  #languages-block-top div.current,
+  #currencies-block-top div.current {
+    background: #ff7e57;
+  }
+  #languages-block-top div.current:hover,
+  #currencies-block-top div.current:hover {
+    background: #eb724d;
+  }
+}
+
+@media (max-width: 767px) {
+  #currencies-block-top div.current.active,
+  #languages-block-top div.current.active {
+    background: #eb724d;
+  }
+}
+
+@media (max-width: 767px) {
+  #contact-link,
+  #languages-block-top,
+  #currencies-block-top {
+    border-right: 1px solid #db6642;
+  }
+}
+
+#languages-block-top ul,
+#currencies-block-top ul {
+  background: #eb724d;
+}
+
+#languages-block-top ul li,
+#currencies-block-top ul li {
+  border-top: 1px solid #db6642;
+}
+
+#languages-block-top ul li.selected,
+#languages-block-top ul li:hover a,
+#currencies-block-top ul li.selected,
+#currencies-block-top ul li:hover a {
+  background: #db6642;
+}
+
+#homepage-slider .homeslider-description h2 {
+  color: #6c4b30;
+}
+
+#homepage-slider .homeslider-description h3 {
+  color: #ff7e57;
+}
+
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a:hover, #homepage-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #ff7e57;
+}
+
+#toTop {
+  color: white;
+}
+
+#toTop:hover {
+  color: #777777;
+}
+
+#center_column #home-page-tabs > li.active a, #home-page-tabs > li a:hover {
+  background: none;
+  color: #ff7300;
+}
+
+#center_column .sale-label {
+  background: #ff7e57;
+}
+
+#center_column .new-label {
+  background: #00d9ff;
+}
+
+.button.ajax_add_to_cart_button {
+  color: #ff7300;
+}
+.button.ajax_add_to_cart_button:hover {
+  border-color: #ff7e57;
+}
+.button.ajax_add_to_cart_button:hover span {
+  background: #ff7e57;
+}
+
+#left_column .block .title_block, #left_column .block h4,
+#center_column .block .title_block, #center_column .block h4 {
+  background: #ff7e57;
+  border-top: 5px solid #db6642;
+}
+
+#cmsinfo_block em {
+  color: #ff7e57;
+}
+
+.footer-container #footer h4 {
+  color: white;
+}
+
+.footer-container #footer h4 a {
+  color: white;
+}
+.footer-container #footer h4 a:hover {
+  color: #777777;
+}
+
+.footer-container #footer h4 {
+  border-bottom: 1px solid #fff;
+}
+
+.footer-container #footer ul li a {
+  color: white;
+}
+.footer-container #footer ul li a:hover {
+  color: #777777;
+}
+
+.footer-container #footer .bottom-footer div {
+  color: white;
+}
+.footer-container #footer .bottom-footer div a {
+  color: white;
+}
+.footer-container #footer .bottom-footer div a:hover {
+  color: #777777;
+}
+
+.footer-container #footer #social_block ul li a:hover {
+  color: #777777;
+}
+
+#htmlcontent_footer a.item-link div.item-html {
+  color: white;
+}
+
+#htmlcontent_top a.item-link span {
+  background: #987469;
+}
+#htmlcontent_top a.item-link span:hover {
+  background: #85655b;
+}
+
+#htmlcontent_top a.item-link h3,
+.cmsinfo_block_inset ul.list-custom li:before {
+  color: #ff7300;
+}
